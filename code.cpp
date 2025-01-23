@@ -9,7 +9,7 @@ public:
 
     FoodItem(std::string name, double price) : name(name), price(price) {}
 };
-
+//FUNCTION
 class Order {
 public:
     std::vector<FoodItem> items;
